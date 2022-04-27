@@ -24,7 +24,7 @@ if($stmt->execute()){
                         </div>
                         <a href="edit_project.php?project_id='.$row['project_id'].'" class="block-anchor panel-footer">Edit
                             <i class="fa fa-arrow-right"></i></a>
-                        <a href="delete.php?id= '.$row['project_id'].'" id="delete_button" class=" block-anchor panel-footer">Delete
+                        <a href="controller/delete.php?id= '.$row['project_id'].'" id="delete_button" class=" block-anchor panel-footer">Delete
                             <i class="dell fa fa-close"></i></a>
                     </div>
                 </div>
